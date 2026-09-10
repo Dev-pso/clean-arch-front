@@ -73,7 +73,7 @@ component. Páginas em `app/` são finas: importam a screen do módulo.
 
 ## 4. Primitivos web e SEO
 
-Aqui está a razão de o web **não** ser um clone cego do app: sites Villela
+Aqui está a razão de o web **não** ser um clone cego do app: sites
 precisam de HTML semântico e SSR para SEO e performance. Então:
 
 - Componentes `@core` no web renderizam **HTML semântico** por baixo

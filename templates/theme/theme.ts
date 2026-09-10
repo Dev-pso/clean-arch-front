@@ -1,5 +1,5 @@
 /**
- * Theme Villela — fonte única de tokens, consumido pelo Unistyles.
+ * Theme — fonte única de tokens, consumido pelo Unistyles.
  * Trocar a identidade de um projeto = substituir a escala `brand*`.
  * Valores crus (hex/px) não devem aparecer em screens; referencie estes tokens.
  *

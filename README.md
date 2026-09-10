@@ -1,6 +1,6 @@
-# clean-arch-front-villela
+# clean-arch-front
 
-Skill do Claude Code que faz a IA estruturar frontend no padrão Villela:
+Skill do Claude Code que faz a IA estruturar frontend no padrão:
 Clean Architecture em camadas + Unistyles + theme tokenizado, sem tailwind.
 Dois alvos — **Expo** (app) e **Next.js / App Router** (web) — com o mesmo núcleo
 de arquitetura, divergindo só na camada de apresentação.
@@ -13,15 +13,15 @@ nasce no formato que o time de desenvolvimento só precisa continuar — **hando
 A skill é uma pasta com `SKILL.md`. Coloque-a em `~/.claude/skills/`:
 
 ```bash
-git clone <url-deste-repo> ~/.claude/skills/clean-arch-front-villela
+git clone <url-deste-repo> ~/.claude/skills/clean-arch-front
 ```
 
-Ou copie a pasta manualmente para `~/.claude/skills/clean-arch-front-villela/`.
+Ou copie a pasta manualmente para `~/.claude/skills/clean-arch-front/`.
 
 Abra o Claude Code e a skill fica disponível:
 - **Automático** — o Claude a consulta sozinho quando o contexto bate (iniciar
   projeto, criar feature/tela/gateway num front React/React Native).
-- **Manual** — digite `/clean-arch-front-villela` no chat.
+- **Manual** — digite `/clean-arch-front` no chat.
 
 ## Conteúdo
 

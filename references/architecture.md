@@ -1,4 +1,4 @@
-# Arquitetura — Clean Arch Villela
+# Arquitetura — Clean Arch Front
 
 Leia antes de criar um módulo. A árvore e a regra de dependência aqui valem
 **igual** para `expo` e `nextjs` — só `presentation` muda de primitivos.

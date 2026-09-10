@@ -1,11 +1,11 @@
 ---
-name: clean-arch-front-villela
+name: clean-arch-front
 description: >-
-  Padrão canônico de frontend Villela — Clean Architecture em camadas + Unistyles +
+  Padrão canônico de frontend — Clean Architecture em camadas + Unistyles +
   theme tokenizado, para iniciar e estruturar projetos novos. Use SEMPRE que for
   começar um app ou site do zero, criar um módulo/feature novo, montar uma tela,
-  um componente, um gateway ou um use case num projeto Villela, mesmo quando o
-  usuário não citar "clean arch" ou "Villela" — qualquer pedido de "cria o
+  um componente, um gateway ou um use case num projeto que segue este padrão,
+  mesmo quando o usuário não citar "clean arch" — qualquer pedido de "cria o
   projeto", "estrutura o front", "monta a tela X", "adiciona a feature Y" num
   frontend React (Expo/React Native ou Next.js) deve passar por aqui. Escolhe o
   alvo (expo para app, nextjs para web/site), aplica a árvore de pastas, o naming
@@ -13,9 +13,9 @@ description: >-
   tailwind (Unistyles em arquivos .css.ts pareados com a screen).
 ---
 
-# Clean Arch Front Villela
+# Clean Arch Front
 
-Este skill faz a IA **estruturar frontend do jeito Villela**: mesma arquitetura,
+Este skill faz a IA **estruturar frontend nesse padrão**: mesma arquitetura,
 mesmo naming, mesmo theme e mesmo padrão de estilo que o time de desenvolvimento
 usa. O objetivo prático é **handoff suave** — um projeto iniciado pelo SEO (ou por
 qualquer um) já nasce no formato que o dev só precisa continuar, não refazer.
@@ -45,7 +45,7 @@ Unistyles, entry/provider). O resto deste skill vale para os dois.
 
 ## As regras que não se quebram
 
-Estas são as decisões que tornam o código reconhecível como "Villela". Seguir
+Estas são as decisões que tornam o código reconhecível como parte deste padrão. Seguir
 todas é o que garante o handoff. Cada uma tem um porquê — respeite o porquê, não
 só a letra.
 
@@ -120,7 +120,7 @@ tem o theme base, e `templates/core/` um componente `@core` canônico de referê
 
 ## Quando este skill se aplica
 
-- Iniciar um projeto frontend Villela do zero (app ou web)
+- Iniciar um projeto frontend do zero (app ou web)
 - Adicionar um módulo/feature a um projeto que já segue este padrão
 - Criar uma screen, componente `@core`, hook, use case ou gateway
 - Revisar se um código está no padrão antes do handoff pro dev

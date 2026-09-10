@@ -15,7 +15,7 @@ export const ExampleScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Exemplos</Text>
-      <Text style={styles.subtitle}>Tela de referência do padrão Villela.</Text>
+      <Text style={styles.subtitle}>Tela de referência do padrão.</Text>
 
       {errorMessage ? <Text style={styles.error}>{errorMessage}</Text> : null}
 

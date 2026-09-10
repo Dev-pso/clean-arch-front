@@ -1,4 +1,4 @@
-# Theme — tokens Villela
+# Theme — tokens
 
 Um único `theme.ts` (em `@core/presentation/tokens/`) é a fonte de verdade de
 cor, espaçamento, tipografia, raio e sombra. O Unistyles recebe esse objeto e o

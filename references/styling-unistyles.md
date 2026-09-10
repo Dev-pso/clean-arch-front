@@ -12,7 +12,7 @@ estilo próprio, um `y.css.ts`. Mesmo nome-base, mesma pasta. A screen/component
 importa os estilos de lá e só referencia `styles.algo` no JSX.
 
 Por quê: separar estrutura (tsx) de estilo (css.ts) deixa a screen legível, os
-estilos reutilizáveis e o diff do dev limpo. É o que faz a tela "parecer Villela".
+estilos reutilizáveis e o diff do dev limpo. É o que dá consistência visual ao padrão.
 
 ## Como escrever um `.css.ts`
 
