@@ -1,6 +1,6 @@
 # clean-arch-front
 
-Skill do Claude Code que faz a IA estruturar frontend no padrão:
+Skill que faz a IA estruturar frontend no padrão:
 Clean Architecture em camadas + Unistyles + theme tokenizado, sem tailwind.
 Dois alvos — **Expo** (app) e **Next.js / App Router** (web) — com o mesmo núcleo
 de arquitetura, divergindo só na camada de apresentação.
